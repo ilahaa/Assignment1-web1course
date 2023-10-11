@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Inter:wght@100&family=Martian+Mono:wght@300;400&family=Mooli&family=Onest:wght@100&family=Poppins:wght@200&family=Roboto:wght@400;500;700&family=Rubik&family=Young+Serif&display=swap');
-
 body{
     display: flex;
     justify-content: center;
@@ -7,7 +6,7 @@ body{
 section{
     width: 80%;
     height: 97vh;
-    background-color: navy;
+    background-color: rgb(7, 7, 71);
 }
 .pages{
     display: flex;
@@ -20,7 +19,7 @@ li{
 }
 a{
     text-decoration: none;
-    color: navy;
+    color:rgb(7, 7, 71);
     font-family: 'Lato', sans-serif;
 }
 nav{
@@ -28,7 +27,7 @@ nav{
     flex-direction: row;
     justify-content: space-around;
     background-color: white;
-    border: 2px solid navy;
+    border: 2px solid rgb(7, 7, 71);
 }
 .icons{
     display: flex;
@@ -39,6 +38,8 @@ nav{
 .main{
     display: flex;
     color: white;
+    margin-left: 70px;
+    margin-top: 50px;
 }
 .profImg{
     width: 200px;
