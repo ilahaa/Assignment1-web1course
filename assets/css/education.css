@@ -8,22 +8,24 @@
 .education-main{
     display: flex;
     justify-content: space-around;
-    margin-top: 30px;
 }
 img{
+    margin-top: 30px;
     width: 400px;
 }
 
 .education-texts{
     color: white;
 }
-.edu-txt{
-    font-size: 20px;
-}
+
 
 h1{
-    font-size: 30px;
+    font-size: 23px;
     font-style: italic;
     color: navajowhite;
     font-weight: 600;
 }
+.titles{
+    color: navajowhite;
+}
+

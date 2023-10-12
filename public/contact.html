@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,26 +11,66 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../assets/css/contact.css">
     <title>Contact Me</title>
 </head>
+
 <body>
     <div class="bg-img"></div>
 
     <section class="contact-me">
-    <nav class="myNavbar">
-        <ul class="pages">
-            <li class="page-list"><a href="../main.html">Home</a></li>
-            <li class="page-list"><a href="./education.html">Education</a></li>
-            <li class="page-list"><a href="./contact.html">Contact</a></li>
-            <li class="page-list"><a href="./card.html">Card</a></li>
-        </ul>
-        <ul class="icons">
-            <a target="_blank" href="https://github.com/ilahaa"><i class="fa-brands fa-github"></i></a>
-            <a target="_blank" href=" https://ilahaa.github.io/Assignment1-web1course/"><i class="fa-solid fa-link" style="margin-left: 25px;"></i></a>
-            <a target="_blank" href=""><i class="fa-brands fa-instagram" style="margin-left: 25px;"></i></a>
-            <a target="_blank" href=""><i class="fa-brands fa-facebook" style="margin-left: 25px;"></i></a>
-        </ul>
-    </nav>
-</section>
+        <nav class="myNavbar">
+            <ul class="pages">
+                <li class="page-list"><a href="../index.html">Home</a></li>
+                <li class="page-list"><a href="./education.html">Education</a></li>
+                <li class="page-list"><a href="./contact.html">Contact</a></li>
+                <li class="page-list"><a href="./card.html">Card</a></li>
+            </ul>
+            <ul class="icons">
+                <a target="_blank" href="https://github.com/ilahaa"><i class="fa-brands fa-github"></i></a>
+                <a target="_blank" href=" https://ilahaa.github.io/Assignment1-web1course/"><i class="fa-solid fa-link"
+                        style="margin-left: 25px;"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/ilaha-hasanli-65355a223"><i
+                        class="fa-brands fa-linkedin" style="margin-left: 25px;"></i></a>
+                <a target="_blank" href=""><i class="fa-brands fa-instagram" style="margin-left: 25px;"></i></a>
+                <a target="_blank" href=""><i class="fa-brands fa-facebook" style="margin-left: 25px;"></i></a>
+            </ul>
+        </nav>
+        <div class="contact-main-form">
+            <form action="mailto:hasanliilaha12@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input required name="fname" type="text" id="name" placeholder="Enter your name"> <br> <br>
+                <label for="surname">Surname:</label>
+                <input name="lname" type="text" id="surname" placeholder="Enter your surname">
+
+                <br> <br>
+
+                <fieldset>
+                    <legend>Choose your gender</legend>
+                    <input type="radio" name="gender" id="male" value="MALE"> <label for="male">Male</label> <br>
+                    <input type="radio" name="gender" id="female" value="FEMALE"> <label for="female">Female</label>
+                    <br>
+                    <input type="radio" name="gender" id="other" value="OTHER"> <label for="other">Other</label>
+                </fieldset>
+
+                <br> <br>
+
+                <fieldset>
+                    <legend>Select your favorite fields</legend>
+
+                    <input type="checkbox" id="field_ai" name="field" value="AI">
+                    <label for="field_ai">AI</label> <br>
+                    <input type="checkbox" id="field_comp_graph" name="field" value="CompGraph">
+                    <label for="field_comp_graph">Computer Graphics</label> <br>
+                    <input type="checkbox" id="field_iot" name="field" value="IoT">
+                    <label for="field_iot">Internet of Things</label>
+                </fieldset>
+
+                <br>
+                <input type="submit" value="submit">
+            </form>
+        </div>
+    </section>
 </body>
+
 </html>
