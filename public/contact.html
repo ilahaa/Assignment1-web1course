@@ -32,32 +32,35 @@
                         style="margin-left: 25px;"></i></a>
                 <a target="_blank" href="https://www.linkedin.com/in/ilaha-hasanli-65355a223"><i
                         class="fa-brands fa-linkedin" style="margin-left: 25px;"></i></a>
-                <a target="_blank" href=""><i class="fa-brands fa-instagram" style="margin-left: 25px;"></i></a>
-                <a target="_blank" href=""><i class="fa-brands fa-facebook" style="margin-left: 25px;"></i></a>
+                <a target="_blank" href="https://www.instagram.com/i_hasanlii/"><i class="fa-brands fa-instagram" style="margin-left: 25px;"></i></a>
             </ul>
         </nav>
         <div class="contact-main-form">
-            <form action="mailto:hasanliilaha12@gmail.com" method="post" enctype="text/plain">
-                <label for="name">Name:</label> <br>
-                <input required name="fname" type="text" id="name" placeholder="Enter your name"> <br> <br>
-                <label for="surname">Surname:</label> <br>
-                <input required name="lname" type="text" id="surname" placeholder="Enter your surname">
+            <div class="form-container">
+                <form action="mailto:hasanliilaha12@gmail.com" method="post" enctype="text/plain">
+                    <label for="name">Name:</label> <br>
+                    <input required name="fname" type="text" id="name" placeholder="Enter your name"> <br> <br>
+                    <label for="surname">Surname:</label> <br>
+                    <input required name="lname" type="text" id="surname" placeholder="Enter your surname"> <br> <br>
+                    <label for="email">Email:</label> <br>
+                    <input required type="email" name="mail" id="email" placeholder="Enter you email">
 
-                <br> <br>
+                    <br> <br>
 
-                <fieldset>
-                    <legend>Choose your gender</legend>
-                    <input type="radio" name="gender" id="male" value="MALE"> <label for="male">Male</label> <br>
-                    <input type="radio" name="gender" id="female" value="FEMALE"> <label for="female">Female</label>
+                    <fieldset>
+                        <legend>Choose your gender</legend>
+                        <input type="radio" name="gender" id="male" value="MALE"> <label for="male">Male</label> <br>
+                        <input type="radio" name="gender" id="female" value="FEMALE"> <label for="female">Female</label>
+                        <br>
+                        <input type="radio" name="gender" id="other" value="OTHER"> <label for="other">Other</label>
+                    </fieldset>
+
                     <br>
-                    <input type="radio" name="gender" id="other" value="OTHER"> <label for="other">Other</label>
-                </fieldset>
 
-                <br> 
-
-                <br>
-                <input type="submit" value="Submit">
-            </form>
+                    <br>
+                    <input class="submit-btn" type="submit" value="Submit">
+                </form>
+            </div>
         </div>
     </section>
 </body>

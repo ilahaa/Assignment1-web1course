@@ -5,7 +5,32 @@
     align-items: center;
     justify-content: center;
 }
+.form-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0, 0.5);
+    border-radius: 10px;
+    margin-top: 50px;
+
+}
 form{
-    width: 600px;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.submit-btn{
+    color: green;
+    border: 1px solid green;
+    font-style: oblique;
+    transition: .4s;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+    transition: .4s;
 
 }
