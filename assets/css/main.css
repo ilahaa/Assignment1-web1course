@@ -9,11 +9,6 @@
     filter: blur(2px);
     -webkit-filter: blur(3px);
 }
-span{
-    color: rgb(238, 238, 173);
-
-}
-
 
 .icons {
     display: flex;
