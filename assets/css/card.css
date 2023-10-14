@@ -1,0 +1,113 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(../img/card-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.42857143;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  width: 500px;
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+}
+
+section>span {
+  background-color: black;
+  width: 100%;
+  height: 5px;
+}
+
+#card {
+  background-color: white;
+  background: url("http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-card2.png") repeat-x right top #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 6px solid #ddd;
+}
+
+.title h1 {
+  font-size: 36px !important;
+  margin: 10px 0;
+}
+
+.title h2 {
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#name {
+  color: #08aeac;
+}
+
+.hr1 {
+  border: none;
+  height: 1px;
+  width: 100%;
+  background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/hr1.png) no-repeat center center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-main {
+  padding: 0 2.3rem;
+}
+
+.card-main p {
+  font-size: 13px;
+}
+
+#information-button {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 10px;
+  background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-btn.png) no-repeat center center #08aeac;
+  transition: 0.6s;
+}
+
+#information-button:hover {
+  background-color: red;
+}
+
+#information-button p {
+  margin: 0;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+#icons i {
+  color: white;
+  background-color: #333333;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+#icons i:hover {
+  background-color: #08aeac;
+}

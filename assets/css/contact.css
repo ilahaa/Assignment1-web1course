@@ -1,33 +1,37 @@
-.contact-main-form{
+.contact-main-form {
     width: 100%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.form-container{
+
+.form-container {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0,0,0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-    margin-top: 50px;
+    margin-top: 30px;
 
 }
-form{
+
+form {
     width: 80%;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.submit-btn{
+
+.submit-btn {
     color: green;
     border: 1px solid green;
     font-style: oblique;
     transition: .4s;
     cursor: pointer;
 }
-.submit-btn:hover{
+
+.submit-btn:hover {
     background-color: green;
     border: 1px solid green;
     color: white;

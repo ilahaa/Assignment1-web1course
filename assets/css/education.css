@@ -5,27 +5,29 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.education-main{
+
+.education-main {
     display: flex;
     justify-content: space-around;
 }
-img{
+
+img {
     margin-top: 30px;
     width: 400px;
 }
 
-.education-texts{
+.education-texts {
     color: white;
 }
 
 
-h1{
+h1 {
     font-size: 23px;
     font-style: italic;
     color: navajowhite;
     font-weight: 600;
 }
-.titles{
+
+.titles {
     color: navajowhite;
 }
-

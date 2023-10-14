@@ -9,6 +9,10 @@
     filter: blur(2px);
     -webkit-filter: blur(3px);
 }
+span{
+    color: rgb(238, 238, 173);
+
+}
 
 
 .icons {
@@ -19,14 +23,15 @@
 }
 
 .main {
-    display: flex;
+    display: grid;
+    grid-template-columns: 20% 80%;
     color: white;
     margin-left: 70px;
     margin-top: 70px; 
 }
 
 .profImg {
-    width: 200px;
+    width: 250px;
     border-radius: 50%;
 }
 
