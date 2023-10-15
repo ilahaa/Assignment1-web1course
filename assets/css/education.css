@@ -1,5 +1,10 @@
-.bg-img {
+body{
+    width: 100%;
     height: 100vh;
+}
+
+.bg-img {
+    height: 100%;
     background-image: url(../img/bg-2.webp);
     background-position: center;
     background-repeat: no-repeat;
@@ -30,4 +35,35 @@ h1 {
 
 .titles {
     color: navajowhite;
+}
+
+@media only screen and (max-width:600px){
+    body{
+        height: 125vh;
+        overflow-x: hidden;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+        margin-top: 120px;
+    }
+    .education-texts{
+        margin-left: 30px;
+    }
+
+}
+
+@media only screen and (max-width:1200px){
+    body{
+        height: 110vh;
+    }
+    .education-main{
+        margin-left: 30px;
+    }
+    
+    img {
+        width: 270px;
+        height: 270px;
+        margin-top: 100px;
+    };
 }

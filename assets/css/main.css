@@ -44,7 +44,7 @@ h1{
 @media only screen and (max-width: 600px) {
     body{
         overflow-x: hidden;
-        height: 100vh;
+        height: 110vh;
     }
     .main{
         display: flex;
