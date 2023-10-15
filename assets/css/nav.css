@@ -55,6 +55,7 @@ nav {
 @media only screen and (max-width: 600px){
     .pages{
         width: 70%;
+        font-size: 15px;
     }
     .icons{
         width: 30%;

@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Inter:wght@100&family=Martian+Mono:wght@300;400&family=Mooli&family=Onest:wght@100&family=Poppins:wght@200&family=Roboto:wght@400;500;700&family=Rubik&family=Young+Serif&display=swap');
-
-.bg-img {
+body{
+    width: 100%;
     height: 100vh;
+}
+.bg-img {
+    height: 100%;
     background-image: url(../img/b1.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -35,4 +38,22 @@
 }
 h1{
     font-size: 40px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+        height: 100vh;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    .main{
+        display: flex;
+    }
 }
