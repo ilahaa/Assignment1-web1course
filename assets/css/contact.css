@@ -38,3 +38,24 @@ form {
     transition: .4s;
 
 }
+
+.message{
+    width: 500px; 
+    height: 50px;
+}
+
+
+@media only screen and (max-width:600px) {
+    .message{
+        height: auto;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .message{
+        height: auto;
+        width: auto;
+    }
+}
+
